@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light Dark Mode</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Dark mode Switch -->
+    <div class="theme-switch-wrapper">
+        <span id="toggle-icon">
+            <span class="toggle-text">light Mode</span>
+            <i class="fas fa-sun"></i>
+        </span>
+        <label  class="theme-switch">
+            <input type="checkbox">
+            <div class="slider round"></div>
+        </label>
+    </div>
+    <!-- Navigation -->
+    <nav id="nav">
+        <a href="#home">HOME</a>
+        <a href="#about">ABOUT</a>
+        <a href="#projects">PROJECTS</a>
+        <a href="#contact">CONTACT</a>
+    </nav>
+    <!-- Home Section -->
+    <section id="home">
+        <div class="title-group">
+            <h1>Neel's baby Facility Management</h1>
+            <h2>Welcome to the Website</h2>
+        </div>
+    </section>
+    <!-- About Section -->
+    <section id="about">
+        <h1>Who are we?</h1>
+        <div class="about-container">
+            <div class="image-container">
+                <h2>Pest Control</h2>
+                <img src="img/undraw_clean_up_re_504g_light.svg" alt="Proud manager" id="image1">   
+            </div>
+            <div class="image-container">
+                <h2>Security,Health & safety</h2>
+                <img src="img/undraw_build_your__home_csh6_light.svg" alt="Proud manager" id="image2">   
+            </div>
+            <div class="image-container">
+                <h2>Electrical</h2>
+                <img src="img/undraw_package_arrived_63rf_light.svg" alt="Proud manager" id="image3">   
+            </div>   
+        </div>
+    </section>
+    <!-- Projects -->
+    <section id="projects">
+        <h1>Projects</h1>
+        <div class="buttons">
+            <button class="primary">Dornbusch</button>
+            <button class="secondary">Gernsheim</button>
+            <button class="primary" disabled>Darmstadt</button>
+            <button class="outline">Dieburg</button>
+            <button class="secondary outline">Niederrad</button>
+            <button class="outline" disabled>Disabled</button>
+        </div>
+        <div class="text-box" id="text-box">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quasi minima minus consequatur esse, voluptatem eos id doloribus excepturi assumenda consequuntur aspernatur ad molestiae illum non perspiciatis. Omnis, consectetur distinctio.</p>
+        </div>
+    </section>
+    <!-- Contact -->
+    <section id="contact">
+        <div class="social-icons">
+            <i class="fab fa-github"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-facebook"></i>
+        </div>
+    </section>
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
